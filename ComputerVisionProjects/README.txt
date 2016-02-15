@@ -1,0 +1,7 @@
+LinearTransforms.cpp
+This program uses the provided image class to modify the inputed image by performing linear transformations on it. The types of linear transformations include: a row and column scale factor that will resize the image in those directions, a rotation factor that will rotate the image from the middle, row and column translation factors that will move the image in a set direction, and a shear factor that will make the image appear it is leaning on its side. This program will only work on ".gif" images and produces the transformed image to "output.gif". This program create a blank image for the output and for each pixel in the output image, gets the coordinate of the coresponding pixel in the input image after the linear transformations. This program also has biliear interpolation in case the new pixel is in between the coordinates in the input image, creating a smoother image. 
+
+EdgeDetector.cpp
+This program uses the provided image class to detect the edges in the inputed image. This program used convolution to first smooth the image in the x and y direction, and later detect the gradiant of the smoothed image in the x and y direction. After both of those steps, the gradients in each of the directions are combined and every gradient above a certain threashold are set as an edge. This program also used bilinear interpolation to create a smoother image. 
+
+Both of these programs were created for a computer vision class, with the image class being provided by the professor. 
