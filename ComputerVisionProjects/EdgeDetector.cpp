@@ -1,4 +1,4 @@
-// HW2driver.cpp
+// EdgeDetector.cpp
 // Program to use the CSS487 Image class to smooth and detect edges on "test.gif"  
 // Author: Andrew VanKooten
 
